@@ -50,10 +50,25 @@
 		  //document.getElementById("arc1").setAttribute("d", describeArc(100, 100, 50, 6, 240));
 		  */  
 		  
-		  ReactDOM.render(
-			  React.createElement(ReactGauge, null),
+		  var a = ReactDOM.render(
+			  React.createElement(ReactGauge, {isInnerNumbers: false}),
 			  document.querySelector('.container')
 			);
+			
+			
+			setTimeout(function() {
+				a.setState({
+					arcStrokeWidth: 20,
+					
+					isInnerNumbers: true
+					
+					
+				})
+				
+				//a.props.gaugeInnerNumbers = true;
+			}, 1500);
+			
+			console.log(a);
 		};
 
 
