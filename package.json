@@ -1,0 +1,31 @@
+{
+  "name": "react-gauge",
+  "version": "0.1.0",
+  "description": "A React.js component for gauge.",
+  "main": "lib/react-gauge.js",
+  "scripts": {
+    "build-examples": "browserify -t babelify examples/basic/index.js -o examples/basic/bundle.js",
+    "test": "mocha --compilers .:test/jsx-compiler.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baklya/Guage"
+  },
+  "keywords": [
+    "React.js",
+    "React",
+    "svg",
+    "gauge",
+    "component",
+    "react-component"
+  ],
+  "author": "Vladimir Matveev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baklya/Guage/issues"
+  },
+  "homepage": "https://github.com/baklya/Guage",
+  "dependencies": {
+    "react": "*"
+  }
+}

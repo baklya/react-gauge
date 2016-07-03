@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Gauge</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.2.0/react.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.2.0/react-dom.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
+  
+  <script src="../lib/react-gauge.js"></script>
+</head>
+<body>
+
+	
+	
+	<div class="container">
+	</div>
+  
+  
+
+	<script>
+
+		window.onload = function() {
+	
+	
+	/*
+			var g = new Gauge(".container",[
+				{
+					'start': 0,
+					'end': 4.5 / 6,
+					'color': "#666"
+				},
+				{
+					'start': 4.5 / 6,
+					'end': 5.5 / 6,
+					'color': "#ffa500"
+				},
+				{
+					'start': 5.5 / 6,
+					'end': 1,
+					'color': "#ff0000"
+				}
+			],
+			[0,1,2,3,4,5,6],
+			2/6);
+			
+			g.Draw();
+		  //document.getElementById("arc1").setAttribute("d", describeArc(100, 100, 50, 6, 240));
+		  */  
+		  
+		  ReactDOM.render(
+			  React.createElement(ReactGauge, null),
+			  document.querySelector('.container')
+			);
+		};
+
+
+  
+  </script>
+</body>
+</html>
