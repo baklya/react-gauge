@@ -8,13 +8,14 @@ var App = React.createClass({
   render: function () {
     return (
         React.createElement(ReactGauge, {isInnerNumbers: false})
-    )
+    );
   }
-})
+});
+
 
 window.onload = function () {
     ReactDom.render(
         React.createElement(App),
         document.querySelector('.container')  
-    )
-}
+    );
+};
