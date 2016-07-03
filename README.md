@@ -1,1 +1,1 @@
-# Guage
+# Gauge
