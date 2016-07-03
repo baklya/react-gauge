@@ -1,6 +1,6 @@
 var React = require('react');
 var ReactDom = require('react-dom');
-var ReactGauge = require('../lib/react-gauge');
+var ReactGauge = require('../lib/react-gauge.min');
 
 var App = React.createClass({
   displayName: 'App',
