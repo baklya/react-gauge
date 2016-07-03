@@ -96,6 +96,6 @@ window.onload = function () {
     );
 
     setInterval(function(){
-       // clock.setState({arrowValue: Math.floor(( new Date().getTime() / 1000 - 30 ) %  60) / 60});
+       clock.setState({arrowValue: Math.floor(( new Date().getTime() / 1000 - 30 ) %  60) / 60});
     }, 100);
 };
