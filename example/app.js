@@ -1,21 +1,17 @@
 var React = require('react');
 var ReactDom = require('react-dom');
-var ReactGauge = require('../lib/react-gauge.min');
-
-var App = React.createClass({
-  displayName: 'App',
-
-  render: function () {
-    return (
-        React.createElement(ReactGauge, {isInnerNumbers: false})
-    );
-  }
-});
-
+var ReactGauge = require('../lib/react-gauge');
 
 window.onload = function () {
     ReactDom.render(
-        React.createElement(App),
-        document.querySelector('.container')  
+        React.createElement(ReactGauge, {isInnerNumbers: false}),
+        document.querySelector('.container1')  
     );
+    
+    ReactDom.render(
+        React.createElement(ReactGauge, {isInnerNumbers: false, aperture: 180}),
+        document.querySelector('.container2')  
+    );
+    
+    
 };
