@@ -4,7 +4,7 @@
   "description": "A React.js component for gauge.",
   "main": "lib/react-gauge.js",
   "scripts": {
-    "build": "browserify example/app.js | uglifyjs -mc > example/index.js",
+    "build-min": "uglifyjs lib/react-gauge.js -o lib/react-gauge.min.js",
     "build-example": "NODE_ENV=production browserify example/app.js | uglifyjs > example/bundle.js"
   },
   "repository": {
