@@ -1,6 +1,6 @@
 {
   "name": "react-gauge-test",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A React.js component for gauge.",
   "main": "lib/react-gauge.js",
   "scripts": {
