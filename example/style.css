@@ -1,0 +1,16 @@
+.container {
+    display: inline;
+}
+
+
+.container3 .gauge .gauge-arrow{
+    fill: red;
+}
+
+.container4 .gauge .gauge-arrow{
+    fill: #333;
+}
+
+.container4 .gauge .gauge-label{
+    font-size: 24px;
+}
