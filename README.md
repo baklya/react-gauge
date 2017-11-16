@@ -1,7 +1,7 @@
 # Gauge
 
 
-[Live demo](https://preview.c9users.io/baklya/kuda-go/react-gauge/example/index.html?_c9_id=livepreview4&_c9_host=https://ide.c9.io).
+[Live demo](https://baklya.github.io/react-gauge/).
 
 
 ## Installation
